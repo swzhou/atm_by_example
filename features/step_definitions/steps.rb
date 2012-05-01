@@ -3,15 +3,15 @@ CAPTURE_CASH_AMOUNT = Transform /^\$(\d+)$/ do |digits|
 end
 
 Given /^I have deposited (#{CAPTURE_CASH_AMOUNT}) in my account$/ do |amount|
-  @my_account = Account.new
-  @my_account.deposit(amount)
-  @my_account.balance.should eq(amount),
+  my_account = Account.new
+  my_account.deposit(amount)
+  my_account.balance.should eq(amount),
       "Expected the balance to be #{amount} but it was #{my_account.balance}"
 end
 
 When /^I withdraw (#{CAPTURE_CASH_AMOUNT})$/ do |amount|
   teller = Teller.new
-  teller.withdraw_from(@my_account, amount)
+  teller.withdraw_from(my_account, amount)
 end
 
 Then /^\$(\d+) should be dispensed$/ do |arg1|
@@ -37,3 +37,11 @@ class Teller
   end
 
 end
+
+module KnowsMyAccount
+  def my_account
+    @my_account ||= Account.new
+  end
+end
+
+World(KnowsMyAccount)
