@@ -1,6 +1,6 @@
 *.gem
 *.rbc
-capybara-*.html
+capybara*.html
 balance
 messages
 .bundle

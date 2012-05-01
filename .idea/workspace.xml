@@ -6,11 +6,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/capybara-20120501134620378971383.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/capybara-201205011354234669105039.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/capybara-201205011357119362686557.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/bank.db" afterPath="$PROJECT_DIR$/db/bank.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/database.rb" afterPath="$PROJECT_DIR$/features/support/database.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/world_extensions.rb" afterPath="$PROJECT_DIR$/features/support/world_extensions.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/account.rb" afterPath="$PROJECT_DIR$/lib/account.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/transaction_processor.rb" afterPath="$PROJECT_DIR$/lib/transaction_processor.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="atm_by_example.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,25 +32,25 @@
       <file leaf-file-name="account.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/account.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="4" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">
+            <state line="18" column="7" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="world_extensions.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/support/world_extensions.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="8" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="transaction_processor.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="transaction_processor.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/transaction_processor.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="46" selection-start="350" selection-end="350" vertical-scroll-proportion="0.29431438">
+            <state line="11" column="46" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="14" selection-start="26" selection-end="26" vertical-scroll-proportion="0.053511705">
               <folding />
             </state>
           </provider>
@@ -81,13 +78,13 @@
         <option value="$PROJECT_DIR$/db/migrate/01_create_accounts.rb" />
         <option value="$PROJECT_DIR$/features/support/hooks.rb" />
         <option value="$PROJECT_DIR$/lib/nice_bank.rb" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/features/step_definitions/account_steps.rb" />
         <option value="$PROJECT_DIR$/features/support/database.rb" />
         <option value="$PROJECT_DIR$/lib/account.rb" />
         <option value="$PROJECT_DIR$/features/support/world_extensions.rb" />
         <option value="$PROJECT_DIR$/lib/transaction_processor.rb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -402,13 +399,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="10" selection-start="95" selection-end="95" vertical-scroll-proportion="0.2706767">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/support/services.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="21" selection-start="47" selection-end="47" vertical-scroll-proportion="0.053511705">
@@ -472,23 +462,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/account.rb">
+    <entry file="file://$PROJECT_DIR$/features/support/world_extensions.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="4" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">
+        <state line="20" column="8" selection-start="419" selection-end="419" vertical-scroll-proportion="0.53511703">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/world_extensions.rb">
+    <entry file="file://$PROJECT_DIR$/lib/account.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="8" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
+        <state line="18" column="7" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/transaction_processor.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="46" selection-start="350" selection-end="350" vertical-scroll-proportion="0.29431438">
+        <state line="11" column="46" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="14" selection-start="26" selection-end="26" vertical-scroll-proportion="0.053511705">
           <folding />
         </state>
       </provider>
