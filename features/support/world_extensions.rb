@@ -11,7 +11,8 @@ module KnowsTheUserInterface
   end
 
   def my_account
-    @my_account ||= Account.new
+    @my_account ||= Account.create!(:number => "test", :balance => 0)
+    @my_account.queue
   end
 
   def teller
