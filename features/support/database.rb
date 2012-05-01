@@ -1,9 +1,7 @@
 require 'database_cleaner'
 
-Before do
-  DatabaseCleaner.start
-end
+DatabaseCleaner.strategy = :truncation
 
-After do
+Before do
   DatabaseCleaner.clean
 end

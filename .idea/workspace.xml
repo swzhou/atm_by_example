@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="070b293d-a850-46b1-926f-b510a6445324" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/support/database.rb" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/capybara-201205011339452545148146.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/capybara-20120501134620378971383.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/capybara-201205011354234669105039.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/capybara-201205011357119362686557.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/atm_by_example.iml" afterPath="$PROJECT_DIR$/.idea/atm_by_example.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/bank.db" afterPath="$PROJECT_DIR$/db/bank.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/database.rb" afterPath="$PROJECT_DIR$/features/support/database.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/world_extensions.rb" afterPath="$PROJECT_DIR$/features/support/world_extensions.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/account.rb" afterPath="$PROJECT_DIR$/lib/account.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/transaction_processor.rb" afterPath="$PROJECT_DIR$/lib/transaction_processor.rb" />
     </list>
     <ignored path="atm_by_example.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,19 +32,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="transaction_queue.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/transaction_queue.rb">
+      <file leaf-file-name="account.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/account.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="6" selection-start="27" selection-end="27" vertical-scroll-proportion="0.053511705">
+            <state line="16" column="4" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="account.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/account.rb">
+      <file leaf-file-name="world_extensions.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/support/world_extensions.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="18" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0">
+            <state line="20" column="8" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="transaction_processor.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/transaction_processor.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="46" selection-start="350" selection-end="350" vertical-scroll-proportion="0.29431438">
               <folding />
             </state>
           </provider>
@@ -74,12 +82,12 @@
         <option value="$PROJECT_DIR$/features/support/hooks.rb" />
         <option value="$PROJECT_DIR$/lib/nice_bank.rb" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/lib/transaction_processor.rb" />
-        <option value="$PROJECT_DIR$/lib/account.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/features/support/database.rb" />
-        <option value="$PROJECT_DIR$/features/support/world_extensions.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/account_steps.rb" />
+        <option value="$PROJECT_DIR$/features/support/database.rb" />
+        <option value="$PROJECT_DIR$/lib/account.rb" />
+        <option value="$PROJECT_DIR$/features/support/world_extensions.rb" />
+        <option value="$PROJECT_DIR$/lib/transaction_processor.rb" />
       </list>
     </option>
   </component>
@@ -197,6 +205,56 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="atm_by_example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="atm_by_example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="atm_by_example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="atm_by_example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="support" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="atm_by_example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="atm_by_example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="step_definitions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -351,13 +409,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/support/services.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="21" selection-start="47" selection-end="47" vertical-scroll-proportion="0.053511705">
@@ -379,16 +430,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/database.rb">
+    <entry file="file://$PROJECT_DIR$/lib/nice_bank.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="23" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0">
+        <state line="26" column="28" selection-start="374" selection-end="374" vertical-scroll-proportion="0.6956522">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/world_extensions.rb">
+    <entry file="file://$PROJECT_DIR$/lib/transaction_queue.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="15" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0">
+        <state line="2" column="6" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/database.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="3" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -400,20 +458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/messages/1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/messages/2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/balance">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -421,30 +465,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/nice_bank.rb">
+    <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="28" selection-start="374" selection-end="374" vertical-scroll-proportion="0.6956522">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/transaction_processor.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="23" selection-start="148" selection-end="148" vertical-scroll-proportion="0.13377926">
+        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/account.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="18" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0">
+        <state line="16" column="4" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/transaction_queue.rb">
+    <entry file="file://$PROJECT_DIR$/features/support/world_extensions.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="27" selection-end="27" vertical-scroll-proportion="0.053511705">
+        <state line="20" column="8" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/transaction_processor.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="46" selection-start="350" selection-end="350" vertical-scroll-proportion="0.29431438">
           <folding />
         </state>
       </provider>
