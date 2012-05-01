@@ -9,8 +9,9 @@ Given /^I have deposited (#{CAPTURE_CASH_AMOUNT}) in my account$/ do |amount|
       "Expected the balance to be #{amount} but it was #{my_account.balance}"
 end
 
-When /^I request \$(\d+)$/ do |arg1|
-  pending # express the regexp above with the code you wish you had
+When /^I withdraw (#{CAPTURE_CASH_AMOUNT})$/ do |amount|
+  teller = Teller.new
+  teller.withdraw_from(my_account, amount)
 end
 
 Then /^\$(\d+) should be dispensed$/ do |arg1|
@@ -25,6 +26,14 @@ class Account
 
   def balance
     @balance
+  end
+
+end
+
+class Teller
+
+  def withdraw_from(account, amount)
+    
   end
 
 end

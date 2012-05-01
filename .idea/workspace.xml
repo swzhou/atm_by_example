@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="070b293d-a850-46b1-926f-b510a6445324" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/cash_withdrawal.feature" afterPath="$PROJECT_DIR$/features/cash_withdrawal.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/steps.rb" />
     </list>
     <ignored path="atm_by_example.iws" />
@@ -28,10 +29,8 @@
       <file leaf-file-name="cash_withdrawal.feature" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/cash_withdrawal.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="32" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1335834666000" expanded="true" signature="27:186" placeholder="Scenario: Successful withdrawal from an account in credit" />
-              </folding>
+            <state line="3" column="19" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -39,7 +38,7 @@
       <file leaf-file-name="steps.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="31" selection-start="363" selection-end="363" vertical-scroll-proportion="0.3008547">
+            <state line="37" column="2" selection-start="746" selection-end="746" vertical-scroll-proportion="0.94529915">
               <folding />
             </state>
           </provider>
@@ -59,6 +58,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/features/cash_withdrawal.feature" />
+        <option value="/temp.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/steps.rb" />
       </list>
     </option>
@@ -280,16 +280,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/cash_withdrawal.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="32" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1335834666000" expanded="true" signature="27:186" placeholder="Scenario: Successful withdrawal from an account in credit" />
-          </folding>
+        <state line="3" column="19" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="31" selection-start="363" selection-end="363" vertical-scroll-proportion="0.3008547">
+        <state line="37" column="2" selection-start="746" selection-end="746" vertical-scroll-proportion="0.94529915">
           <folding />
         </state>
       </provider>
