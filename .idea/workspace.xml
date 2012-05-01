@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="070b293d-a850-46b1-926f-b510a6445324" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/env.rb" afterPath="$PROJECT_DIR$/features/support/env.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/nice_bank.rb" afterPath="$PROJECT_DIR$/lib/nice_bank.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/world_extensions.rb" afterPath="$PROJECT_DIR$/features/support/world_extensions.rb" />
     </list>
     <ignored path="atm_by_example.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,19 +24,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="nice_bank.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="nice_bank.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/nice_bank.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="18" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
+            <state line="16" column="18" selection-start="193" selection-end="193" vertical-scroll-proportion="0.09030101">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="env.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="env.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/support/env.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="44" selection-start="183" selection-end="183" vertical-scroll-proportion="0.10702341">
+            <state line="4" column="8" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="world_extensions.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/support/world_extensions.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="7" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -58,7 +66,6 @@
       <list>
         <option value="/temp.rb" />
         <option value="$PROJECT_DIR$/features/support/transforms.rb" />
-        <option value="$PROJECT_DIR$/features/support/world_extensions.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/teller_steps.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/steps.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/cash_slot_steps.rb" />
@@ -67,6 +74,7 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/lib/nice_bank.rb" />
         <option value="$PROJECT_DIR$/features/support/env.rb" />
+        <option value="$PROJECT_DIR$/features/support/world_extensions.rb" />
       </list>
     </option>
   </component>
@@ -331,13 +339,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/world_extensions.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="30" selection-start="217" selection-end="217" vertical-scroll-proportion="0.4013378">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/teller_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="31" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
@@ -366,16 +367,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/nice_bank.rb">
+    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="18" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
+        <state line="4" column="8" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
+    <entry file="file://$PROJECT_DIR$/features/support/world_extensions.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="44" selection-start="183" selection-end="183" vertical-scroll-proportion="0.10702341">
+        <state line="3" column="7" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/nice_bank.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="18" selection-start="193" selection-end="193" vertical-scroll-proportion="0.09030101">
           <folding />
         </state>
       </provider>
