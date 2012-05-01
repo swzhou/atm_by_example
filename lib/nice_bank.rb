@@ -1,7 +1,21 @@
 require 'sinatra'
 
 get '/' do
-  "Welcome to our nice bank."
+  %{
+<html>
+  <body>
+    <form action="/withdraw" method="post">
+      <label for="amount">Amount</label>
+      <input type="text" id="amount" name="amount"/>
+      <button type="submit">Withdraw</button>
+    </form>
+  </body>
+</html>
+  }
+end
+
+post '/withdraw' do
+  fail "I don't know how to withdraw yet, sorry"
 end
 
 class Account

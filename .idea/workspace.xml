@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="070b293d-a850-46b1-926f-b510a6445324" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/world_extensions.rb" afterPath="$PROJECT_DIR$/features/support/world_extensions.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/support/debugging.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/atm_by_example.iml" afterPath="$PROJECT_DIR$/.idea/atm_by_example.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/nice_bank.rb" afterPath="$PROJECT_DIR$/lib/nice_bank.rb" />
     </list>
     <ignored path="atm_by_example.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,19 +29,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="nice_bank.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="nice_bank.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/nice_bank.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="18" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
+            <state line="3" column="46" selection-start="34" selection-end="34" vertical-scroll-proportion="0.080267556">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="env.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="env.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/support/env.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="8" selection-start="147" selection-end="147" vertical-scroll-proportion="0.10702341">
+            <state line="4" column="8" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -71,10 +76,11 @@
         <option value="$PROJECT_DIR$/features/step_definitions/cash_slot_steps.rb" />
         <option value="$PROJECT_DIR$/features/cash_withdrawal.feature" />
         <option value="$PROJECT_DIR$/features/step_definitions/account_steps.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/lib/nice_bank.rb" />
         <option value="$PROJECT_DIR$/features/support/env.rb" />
         <option value="$PROJECT_DIR$/features/support/world_extensions.rb" />
+        <option value="$PROJECT_DIR$/features/support/debugging.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/lib/nice_bank.rb" />
       </list>
     </option>
   </component>
@@ -178,6 +184,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="atm_by_example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="atm_by_example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="atm_by_example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="atm_by_example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="atm_by_example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="support" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -360,16 +398,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="35" selection-start="146" selection-end="146" vertical-scroll-proportion="0.18729097">
+        <state line="4" column="8" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/nice_bank.rb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="18" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
+        <state line="3" column="31" selection-start="43" selection-end="43" vertical-scroll-proportion="0.083333336">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/debugging.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="40" selection-start="60" selection-end="60" vertical-scroll-proportion="0.026755853">
           <folding />
         </state>
       </provider>
@@ -381,9 +426,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
+    <entry file="file://$PROJECT_DIR$/lib/nice_bank.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="8" selection-start="147" selection-end="147" vertical-scroll-proportion="0.10702341">
+        <state line="3" column="46" selection-start="34" selection-end="34" vertical-scroll-proportion="0.080267556">
           <folding />
         </state>
       </provider>
