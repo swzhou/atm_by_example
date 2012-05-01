@@ -1,6 +1,6 @@
 class Account
 
-  def deposit(amount)
+  def credit(amount)
     @balance = amount
   end
 
