@@ -11,7 +11,7 @@ class TransactionQueue
   end
 
   def write(transaction)
-    File.open("messages/#{next_id}", "w") { |f| f.puts(transaction) }
+    File.open("messages/#{@next_id}", "w") { |f| f.puts(transaction) }
     @next_id += 1
   end
 
