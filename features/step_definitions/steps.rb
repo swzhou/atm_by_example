@@ -1,5 +1,6 @@
 Given /^I have deposited \$(\d+) in my account$/ do |amount|
-  Account.new(amount.to_i)
+  my_account = Account.new
+  my_account.deposit(amount.to_i)
 end
 
 When /^I request \$(\d+)$/ do |arg1|
@@ -12,7 +13,7 @@ end
 
 class Account
 
-  def initialize amount
+  def deposit(amount)
 
   end
 
