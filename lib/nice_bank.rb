@@ -1,3 +1,9 @@
+require 'sinatra'
+
+get '/' do
+  "Welcome to our nice bank."
+end
+
 class Account
 
   def credit(amount)
