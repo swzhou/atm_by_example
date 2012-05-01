@@ -7,7 +7,7 @@ messages
 .config
 coverage
 InstalledFiles
-db/band.db
+db/bank.db
 lib/bundler/man
 pkg
 rdoc
