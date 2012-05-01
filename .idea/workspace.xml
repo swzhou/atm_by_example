@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="070b293d-a850-46b1-926f-b510a6445324" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/support/debugging.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/atm_by_example.iml" afterPath="$PROJECT_DIR$/.idea/atm_by_example.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/world_extensions.rb" afterPath="$PROJECT_DIR$/features/support/world_extensions.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/nice_bank.rb" afterPath="$PROJECT_DIR$/lib/nice_bank.rb" />
     </list>
     <ignored path="atm_by_example.iws" />
@@ -32,7 +28,7 @@
       <file leaf-file-name="nice_bank.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/nice_bank.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="46" selection-start="34" selection-end="34" vertical-scroll-proportion="0.080267556">
+            <state line="59" column="3" selection-start="820" selection-end="820" vertical-scroll-proportion="0.7324415">
               <folding />
             </state>
           </provider>
@@ -50,7 +46,7 @@
       <file leaf-file-name="world_extensions.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/support/world_extensions.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="28" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
+            <state line="5" column="44" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -77,9 +73,9 @@
         <option value="$PROJECT_DIR$/features/cash_withdrawal.feature" />
         <option value="$PROJECT_DIR$/features/step_definitions/account_steps.rb" />
         <option value="$PROJECT_DIR$/features/support/env.rb" />
-        <option value="$PROJECT_DIR$/features/support/world_extensions.rb" />
         <option value="$PROJECT_DIR$/features/support/debugging.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/features/support/world_extensions.rb" />
         <option value="$PROJECT_DIR$/lib/nice_bank.rb" />
       </list>
     </option>
@@ -421,14 +417,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/support/world_extensions.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="28" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
+        <state line="5" column="44" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/nice_bank.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="46" selection-start="34" selection-end="34" vertical-scroll-proportion="0.080267556">
+        <state line="59" column="3" selection-start="820" selection-end="820" vertical-scroll-proportion="0.7324415">
           <folding />
         </state>
       </provider>
