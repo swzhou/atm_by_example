@@ -1,5 +1,3 @@
-require File.join(File.dirname(__FILE__), "..", "..", "lib", "nice_bank")
-
 CAPTURE_CASH_AMOUNT = Transform /^\$(\d+)$/ do |digits|
   digits.to_i
 end
