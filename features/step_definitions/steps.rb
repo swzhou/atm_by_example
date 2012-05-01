@@ -3,19 +3,17 @@ CAPTURE_CASH_AMOUNT = Transform /^\$(\d+)$/ do |digits|
 end
 
 Given /^I have deposited (#{CAPTURE_CASH_AMOUNT}) in my account$/ do |amount|
-  my_account = Account.new
   my_account.deposit(amount)
   my_account.balance.should eq(amount),
       "Expected the balance to be #{amount} but it was #{my_account.balance}"
 end
 
 When /^I withdraw (#{CAPTURE_CASH_AMOUNT})$/ do |amount|
-  teller = Teller.new
   teller.withdraw_from(my_account, amount)
 end
 
-Then /^\$(\d+) should be dispensed$/ do |arg1|
-  pending # express the regexp above with the code you wish you had
+Then /^(#{CAPTURE_CASH_AMOUNT}) should be dispensed$/ do |amount|
+  cash_slot.contents.should == amount
 end
 
 class Account
@@ -32,16 +30,40 @@ end
 
 class Teller
 
+  def initialize cash_slot
+    @cash_slot = cash_slot
+  end
+
   def withdraw_from(account, amount)
-    
+    @cash_slot.dispense(amount)
   end
 
 end
 
-module KnowsMyAccount
+class CashSlot
+
+  def contents
+    @amount || raise("I am empty!")
+  end
+
+  def dispense amount
+    @amount = amount
+  end
+end
+
+module KnowsTheDomain
   def my_account
     @my_account ||= Account.new
   end
+
+  def teller
+    @teller ||= Teller.new(cash_slot)
+  end
+
+  def cash_slot
+    @cash_slot ||= CashSlot.new
+  end
+
 end
 
-World(KnowsMyAccount)
+World(KnowsTheDomain)
