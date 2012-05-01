@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="070b293d-a850-46b1-926f-b510a6445324" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/cash_withdrawal.feature" afterPath="$PROJECT_DIR$/features/cash_withdrawal.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/steps.rb" />
     </list>
     <ignored path="atm_by_example.iws" />
@@ -38,7 +37,7 @@
       <file leaf-file-name="steps.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="2" selection-start="746" selection-end="746" vertical-scroll-proportion="0.94529915">
+            <state line="13" column="24" selection-start="438" selection-end="438" vertical-scroll-proportion="0.2888889">
               <folding />
             </state>
           </provider>
@@ -287,7 +286,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="2" selection-start="746" selection-end="746" vertical-scroll-proportion="0.94529915">
+        <state line="13" column="24" selection-start="438" selection-end="438" vertical-scroll-proportion="0.2888889">
           <folding />
         </state>
       </provider>
