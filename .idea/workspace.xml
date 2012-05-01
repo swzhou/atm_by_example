@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="070b293d-a850-46b1-926f-b510a6445324" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/account_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/account_steps.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/nice_bank.rb" afterPath="$PROJECT_DIR$/lib/nice_bank.rb" />
     </list>
     <ignored path="atm_by_example.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,10 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="account_steps.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="account_steps.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/account_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="26" selection-start="251" selection-end="251" vertical-scroll-proportion="0.14209591">
+            <state line="5" column="26" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -52,10 +52,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nice_bank.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="nice_bank.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/nice_bank.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
+            <state line="7" column="22" selection-start="108" selection-end="108" vertical-scroll-proportion="0.17708333">
               <folding />
             </state>
           </provider>
@@ -75,7 +75,6 @@
     <option name="changedFiles">
       <list>
         <option value="/temp.rb" />
-        <option value="$PROJECT_DIR$/lib/nice_bank.rb" />
         <option value="$PROJECT_DIR$/features/support/env.rb" />
         <option value="$PROJECT_DIR$/features/support/transforms.rb" />
         <option value="$PROJECT_DIR$/features/support/world_extensions.rb" />
@@ -84,6 +83,7 @@
         <option value="$PROJECT_DIR$/features/step_definitions/cash_slot_steps.rb" />
         <option value="$PROJECT_DIR$/features/cash_withdrawal.feature" />
         <option value="$PROJECT_DIR$/features/step_definitions/account_steps.rb" />
+        <option value="$PROJECT_DIR$/lib/nice_bank.rb" />
       </list>
     </option>
   </component>
@@ -432,13 +432,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/nice_bank.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/cash_withdrawal.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="45" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
@@ -448,7 +441,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/account_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="26" selection-start="251" selection-end="251" vertical-scroll-proportion="0.14209591">
+        <state line="5" column="26" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/nice_bank.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="22" selection-start="108" selection-end="108" vertical-scroll-proportion="0.17708333">
           <folding />
         </state>
       </provider>
