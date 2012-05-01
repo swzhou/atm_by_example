@@ -39,7 +39,7 @@
       <file leaf-file-name="steps.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="6" selection-start="363" selection-end="363" vertical-scroll-proportion="0.3478261">
+            <state line="21" column="4" selection-start="460" selection-end="460" vertical-scroll-proportion="0.5618729">
               <folding />
             </state>
           </provider>
@@ -289,7 +289,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="6" selection-start="363" selection-end="363" vertical-scroll-proportion="0.3478261">
+        <state line="21" column="4" selection-start="460" selection-end="460" vertical-scroll-proportion="0.5618729">
           <folding />
         </state>
       </provider>
